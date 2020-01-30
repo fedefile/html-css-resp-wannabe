@@ -65,3 +65,18 @@ img{
 .clear {
   clear:both;
 }
+
+@media screen and (max-width: 420px) {
+    float: none;
+    width: 100vw;
+}
+
+#steps .row > .left, #steps .row > .central, #steps .row > .right {
+    float: none;
+    width: 100vw;
+}
+
+#why .row > .first, #why .row > .second, #why .row > .third {
+    float: none;
+    width: 100vw;
+}
